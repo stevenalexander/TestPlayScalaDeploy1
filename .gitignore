@@ -4,13 +4,29 @@
 # except for .gitignore
 !.gitignore
 
-# Ignore Play! working directory #
-db
-eclipse
-log
 logs
-precompiled
+project/project
+project/target
+target
 tmp
-test-result
-eclipse
-server.pid
+.history
+dist
+
+# OSX flob
+.DS_Store
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+.cache
+
+# idea conf files
+.idea
+*.iml
+*.ipr
+*.iws
+
+RUNNING_PID
